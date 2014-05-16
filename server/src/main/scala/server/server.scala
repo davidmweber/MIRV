@@ -1,4 +1,5 @@
+import libpackage.Common.printme
 
 object server extends App {
-    println("I am the server")
+   printme("I am the server")
 }
