@@ -14,4 +14,3 @@ lazy val client = project in file("client") settings(name:="mirv-client") depend
 lazy val server = project in file("server") settings(name:="mirv-server") dependsOn(lib)
 
 
-

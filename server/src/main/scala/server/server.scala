@@ -1,5 +1,8 @@
+package server
 import libpackage.Common.printme
 
 object server extends App {
-   printme("I am the server")
+  def test = "server"
+  printme("I am the server")
+
 }
