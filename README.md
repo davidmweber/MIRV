@@ -3,12 +3,12 @@
 A minimal example of using SBT, native packaging and sub-projects. Builds are pretty straight forward:
 
 ```bash
-# Compile and run the server
+# Compile and test everything
+sbt test
+# Run just the server
 sbt server/run
-
 # Run the client
 sbt client/run
-
 # Build Debian packages (requires fakeroot to be installed)
 sbt debian:packageBin
 ```
