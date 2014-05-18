@@ -1,6 +1,6 @@
 import com.typesafe.sbt.packager.Keys._
 
-packageArchetype.java_application
+packageArchetype.java_server
 
 exportJars := true
 

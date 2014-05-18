@@ -1,6 +1,6 @@
 package client
 import org.scalatest._
-import client.test
+import Client.test
 
 class ClientTest  extends FunSpec with Matchers with GivenWhenThen {
   describe("Client") {
