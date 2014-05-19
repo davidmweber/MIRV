@@ -1,5 +1,4 @@
 import com.typesafe.sbt.packager.Keys._
-import sbt.SessionVar.Key
 
 packageArchetype.java_server
 
