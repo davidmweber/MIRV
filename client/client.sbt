@@ -1,5 +1,4 @@
 import com.typesafe.sbt.packager.Keys._
-foo
 
 packageArchetype.java_application
 
