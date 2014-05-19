@@ -1,7 +1,7 @@
 
-scalaVersion := "2.11.0"
+scalaVersion in ThisBuild := "2.11.0"
 
-scalacOptions ++= Seq("-feature", "-language:postfixOps")
+scalacOptions in ThisBuild ++= Seq("-feature", "-language:postfixOps")
 
 lazy val root = project in file(".") aggregate(lib,client,server)
 
