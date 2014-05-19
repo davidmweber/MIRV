@@ -3,7 +3,7 @@ scalaVersion := "2.11.0"
 
 scalacOptions ++= Seq("-feature", "-language:postfixOps")
 
-lazy val root = project aggregate(lib,client,server)
+lazy val root = project in file(".") aggregate(lib,client,server)
 
 lazy val lib = project in file("lib") settings(
   version := "1.0.0"
