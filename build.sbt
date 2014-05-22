@@ -1,5 +1,5 @@
 
-scalaVersion in ThisBuild := "2.11.0"
+scalaVersion in ThisBuild := "2.11.1"
 
 scalacOptions in ThisBuild ++= Seq("-feature", "-language:postfixOps")
 
